@@ -8,7 +8,6 @@
 
 A machine learning web application that predicts passenger survival chances from the Titanic disaster. Built with **Random Forest Classifier** achieving **84.36% accuracy** and deployed as an interactive **Streamlit** web app.
 
----
 
 ## 📊 Model Performance
 
@@ -23,7 +22,6 @@ A machine learning web application that predicts passenger survival chances from
 - **Features:** 10 engineered attributes
 - **Model:** Random Forest Classifier
 
----
 
 ## 🎯 Features
 
@@ -33,7 +31,6 @@ A machine learning web application that predicts passenger survival chances from
 - ✅ Confidence level indicators (High/Moderate/Low)
 - ✅ 10 passenger attributes including engineered features
 
----
 
 ## 🛠️ Tech Stack
 
@@ -46,7 +43,6 @@ A machine learning web application that predicts passenger survival chances from
 | NumPy | 1.24 |
 | Matplotlib | 3.7 |
 
----
 
 ## 📦 Installation
 
@@ -77,8 +73,8 @@ titanic-survival-predictor/
 ├── app.py                 # Streamlit web application
 ├── my_titanic_model.pkl   # Trained Random Forest model
 ├── requirements.txt       # Python dependencies
-├── README.md             # Project documentation
-
+├── README.md              # Project documentation
+└── .gitignore             # Git ignore file
 🔍 Feature Engineering
 Family Size = SibSp + Parch + 1
 
@@ -94,8 +90,11 @@ Training/Test Split: 80/20
 Cross-validation: 5-fold
 
 Random State: 42 (reproducible results)
+
 👩‍💻 Author
 Umaima Fawad
+
 https://img.shields.io/badge/GitHub-umaimafawad711--code-black?logo=github
+
 ⭐ Show Your Support
 If you found this project helpful, please give it a ⭐ on GitHub!
